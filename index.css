@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(113, 117, 160);
+
+}
+
+.Logo{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    border-radius: 10%;
+    
+}
+
+.navbar{
+    font-family: helvetica, roboto, "new times roman", lato;
+    color: whitesmoke;
+
+}
+
+.List-Nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style:none;
+gap: 80px;
+}
+
+.a-nav{
+font-weight: 500;
+}
